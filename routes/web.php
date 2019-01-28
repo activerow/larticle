@@ -15,6 +15,7 @@ Route::get('/', 'PagesController@index')->name('index');
 Route::get('/about', 'PagesController@about')->name('about');
 Route::get('/services', 'PagesController@services')->name('services');
 Route::get('/contact', 'PagesController@contact')->name('contact');
+Route::post('/contact', 'ContactUsController@contactPost')->name('contact_us');
 
 Auth::routes(['verify' => true]);
 

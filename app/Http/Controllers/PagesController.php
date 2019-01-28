@@ -23,6 +23,6 @@ class PagesController extends Controller
 
     public function contact()
     {
-        return view('pages.about');
+        return view('pages.contact');
     }
 }
