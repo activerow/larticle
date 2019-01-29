@@ -17,3 +17,9 @@
         <i class="fas fa-times"></i> {{ session('error') }}
     </div>
 @endif
+
+@if(session('status'))
+    <div class="alert alert-success">
+        <i class="fas fa-check"></i> {{ session('status') }}
+    </div>
+@endif
