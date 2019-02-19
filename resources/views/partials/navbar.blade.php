@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadow-lg">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-lg sticky-top">
     <div class="container">
         <a class="navbar-brand" href="{{ route('index') }}">
             <img src="{{ asset('img/brand-logo.png') }}" height="25px">

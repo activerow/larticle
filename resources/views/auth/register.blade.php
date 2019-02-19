@@ -3,7 +3,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="container py-3">
     <div class="row justify-content-center">
         <div class="col-12 col-sm-10 col-md-6 col-lg-4">
             <div class="card shadow-lg">
